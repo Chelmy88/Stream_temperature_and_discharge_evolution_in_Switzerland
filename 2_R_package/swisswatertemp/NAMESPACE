@@ -1,0 +1,23 @@
+exportPattern("^[[:alpha:]]+")
+
+importFrom("grDevices", "col2rgb", "colorRampPalette", "dev.off",
+               "pdf", "png", "rgb")
+importFrom("graphics", "abline", "layout", "legend", "lines", "mtext",
+               "par", "plot", "plot.new", "points", "rect", "text")
+importFrom("stats", "acf", "aggregate", "ccf", "coef", "cor", "loess",
+               "na.pass", "pacf", "predict", "stl", "ts","wilcox.test","median",
+               "filter", "t.test", "var")
+importFrom("data.table","fread")
+importFrom("zoo","na.approx")
+importFrom("raster","brick","plotRGB","movingFun")
+importFrom("rgdal", "readOGR")
+import("sp")
+importFrom("GISTools","north.arrow","map.scale")
+importFrom("gridExtra", "grid.table")
+importFrom("RColorBrewer","brewer.pal")
+importFrom("graphics","boxplot","axis","grid","hist","image", "title")
+importFrom("Hmisc","rcorr")
+importFrom("lubridate","decimal_date", "year", "month")
+importFrom("Partiallyoverlapping","Partover.test")
+importFrom("MASS","rlm")
+

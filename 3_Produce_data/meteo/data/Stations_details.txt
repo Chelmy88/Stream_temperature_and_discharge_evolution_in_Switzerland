@@ -1,0 +1,224 @@
+ALT 	Altdorf
+Number in MeteoSwiss_StationList.txt: 5
+T	01-1864
+T_HOM	01-1864
+P	01-1876
+P_HOM	01-1876
+
+
+ANT	Andermatt
+Number in MeteoSwiss_StationList.txt: 8
+T	12-1873
+T_HOM	12-1873
+P	02-1881
+P_HOM	02-1881
+
+
+BAS	Basel / Binningen
+Number in MeteoSwiss_StationList.txt: 12
+T	01-1864
+T_HOM	01-1864
+P	01-1864
+P_HOM	01-1864
+
+
+BER	Bern / Zollikofen
+Number in MeteoSwiss_StationList.txt: 14
+T	01-1864
+T_HOM	01-1864
+P	01-1864
+P_HOM	01-1864
+
+
+CDF	La Chaux-de-Fonds
+Number in MeteoSwiss_StationList.txt: 74
+T	01-1901
+T_HOM	01-1901
+P	01-1900
+P_HOM	01-1900
+
+
+CHD	Château-d'Oex
+Number in MeteoSwiss_StationList.txt: 31
+T	08-1909
+T_HOM	08-1909
+P	NONE
+P_HOM	NONE
+
+
+CHM	Chaumont
+Number in MeteoSwiss_StationList.txt: 29
+T	01-1864
+T_HOM	01-1864
+P	01-1864
+P_HOM	01-1864
+	
+
+DAV	Davos
+Number in MeteoSwiss_StationList.txt: 38
+T	01-1876
+T_HOM	01-1876
+P	01-1876
+P_HOM	01-1876
+
+
+ELM	Elm
+Number in MeteoSwiss_StationList.txt: 45
+T	12-1881
+T_HOM	12-1881
+P	12-1881
+P_HOM	12-1881
+
+
+ENG	Engelberg
+Number in MeteoSwiss_StationList.txt: 46
+T	01-1864
+T_HOM	01-1864
+P	01-1864
+P_HOM	01-1900
+
+
+GRC	
+Grächen
+Number in MeteoSwiss_StationList.txt: 61
+T	09-1950
+T_HOM	09-1950
+P	05-1929
+P_HOM	05-1929
+
+
+GRH	Grimsel Hospiz
+Number in MeteoSwiss_StationList.txt: 59
+T	01-1932
+T_HOM	01-1932
+P	01-1932
+P_HOM	01-1932
+
+
+GSB	Col du Grand St-Bernard
+Number in MeteoSwiss_StationList.txt: 34
+T	01-1864
+T_HOM	01-1934
+P	12-1864
+P_HOM	01-1901
+
+
+GVE	Genève / Cointrin
+Number in MeteoSwiss_StationList.txt: 53
+T	01-1954
+T_HOM	12-1864
+P	01-1950
+P_HOM	01-1864
+
+
+
+JUN	Jungfraujoch
+Number in MeteoSwiss_StationList.txt: 71
+T	01-1933
+T_HOM	01-1933
+P	NONE
+P_HOM	NONE
+
+
+LUG	Lugano
+Number in MeteoSwiss_StationList.txt: 85
+T	01-1864
+T_HOM	01-1864
+P	01-1864
+P_HOM	01-1864
+
+
+LUZ	Luzern
+Number in MeteoSwiss_StationList.txt: 86
+T	08-1880
+T_HOM	01-1871
+P	08-1880
+P_HOM	08-1880
+
+
+MER	Meiringen
+Number in MeteoSwiss_StationList.txt: 93
+T	07-1889
+T_HOM	07-1889
+P	07-1889
+P_HOM	07-1889
+
+
+NEU	Neuchâtel
+Number in MeteoSwiss_StationList.txt: 105
+T	01-1864
+T_HOM	01-1864
+P	01-1864
+P_HOM	01-1864
+
+
+OTL	Locarno / Monti
+Number in MeteoSwiss_StationList.txt: 84
+T	05-1935
+T_HOM	01-1882
+P	10-1900
+P_HOM	01-1883
+
+
+RAG	Bad Ragaz
+Number in MeteoSwiss_StationList.txt: 10
+T	09-1938
+T_HOM	06-1870
+P	09-1938
+P_HOM	NONE	
+
+
+SAM	Samedan
+Number in MeteoSwiss_StationList.txt: 123
+T	01-1864
+T_HOM	01-1864
+P	01-1980
+P_HOM	01-1980
+
+
+SAE	Säntis
+Number in MeteoSwiss_StationList.txt: 136
+T	09-1882
+T_HOM	09-1882
+P	09-1882
+P_HOM	09-1882
+
+
+SBE	S. Bernardino
+Number in MeteoSwiss_StationList.txt: 5
+T	01-1968
+T_HOM	01-1864
+P	01-1968
+P_HOM	07-1954
+
+
+SIA	Segl-Maria
+Number in MeteoSwiss_StationList.txt: 121
+T	02-1914
+T_HOM	02-1914
+P	02-1914
+P_HOM	02-1914
+
+
+SIO	Sion
+Number in MeteoSwiss_StationList.txt: 129
+T	01-1958
+T_HOM	04-1864
+P	01-1958
+P_HOM	04-1864
+
+
+STG	St. Gallen
+Number in MeteoSwiss_StationList.txt: 133
+T	12-1865
+T_HOM	12-1865
+P	09-1890
+P_HOM	09-1890
+
+
+SMA	Zürich / Fluntern
+Number in MeteoSwiss_StationList.txt: 153
+T	01-1864
+T_HOM	01-1864
+P	01-1864
+P_HOM	01-1864

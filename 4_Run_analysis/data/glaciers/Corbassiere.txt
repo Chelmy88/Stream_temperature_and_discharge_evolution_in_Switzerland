@@ -1,0 +1,30 @@
+The data of the Swiss Glacier Monitoring Network (GLAMOS) are freely available (https://www.glamos.ch) and may be used with indication of the source for scientific and non-commercial use.
+When using these data, please cite as:
+GLAMOS (2018). Swiss Glacier Mass Balance, release 2018, Glacier Monitoring Switzerland, doi:10.18750/massbalance.2018.r2018.
+These data are extracted form the above mentioned dataset (A. Michel)
+
+SWISS GLACIER MASS BALANCE (OBSERVATION PERIOD)
+
+name; id; start_obs; end_winter_obs; end_obs; winter_mb; summer_mb; annual_mb; area
+Glacier de Corbassière;B83/03;1996-09-12;1997-09-01;1997-08-27;969;-961;8;16.17750
+Glacier de Corbassière;B83/03;1997-08-27;1998-09-01;1998-08-26;816;-2338;-1522;16.07125
+Glacier de Corbassière;B83/03;1998-08-26;1999-09-01;1999-09-01;1262;-1096;166;16.02188
+Glacier de Corbassière;B83/03;1999-09-01;2000-09-01;2000-08-29;993;-1364;-371;16.02000
+Glacier de Corbassière;B83/03;2000-08-29;2001-09-01;2001-09-12;1662;-1372;290;16.02000
+Glacier de Corbassière;B83/03;2001-09-12;2002-09-01;2002-09-07;645;-977;-332;16.02000
+Glacier de Corbassière;B83/03;2002-09-07;2003-09-01;2003-09-05;1085;-2224;-1139;16.00937
+Glacier de Corbassière;B83/03;2003-09-05;2004-09-01;2004-09-08;1193;-1764;-571;16.10375
+Glacier de Corbassière;B83/03;2004-09-08;2005-09-01;2005-09-01;922;-1736;-814;16.05937
+Glacier de Corbassière;B83/03;2005-09-01;2006-09-01;2006-07-04;771;-1642;-871;15.97875
+Glacier de Corbassière;B83/03;2006-09-07;2007-09-01;2007-09-04;887;-1309;-422;15.89375
+Glacier de Corbassière;B83/03;2007-09-04;2008-09-01;2008-09-08;860;-1885;-1025;15.84000
+Glacier de Corbassière;B83/03;2008-09-08;2009-09-01;2009-09-07;1470;-2369;-899;15.76625
+Glacier de Corbassière;B83/03;2009-09-07;2010-09-01;2010-09-01;762;-1635;-873;15.64750
+Glacier de Corbassière;B83/03;2010-09-01;2011-09-01;2011-08-30;733;-1803;-1070;15.46500
+Glacier de Corbassière;B83/03;2011-08-30;2012-09-01;2012-09-18;1153;-2384;-1231;15.29187
+Glacier de Corbassière;B83/03;2012-09-19;2013-09-01;2013-09-25;1209;-1463;-254;15.16563
+Glacier de Corbassière;B83/03;2013-09-25;2014-09-01;2014-09-08;1206;-1210;-4;15.16563
+Glacier de Corbassière;B83/03;2014-09-08;2015-09-01;2015-09-08;663;-2112;-1449;15.16563
+Glacier de Corbassière;B83/03;2015-09-08;2016-09-01;2016-09-14;1199;-1649;-450;15.16563
+Glacier de Corbassière;B83/03;2016-09-14;2017-09-01;2017-09-22;943;-2279;-1336;15.08188
+Glacier de Corbassière;B83/03;2017-09-22;2018-09-01;2018-09-18;1325;-2247;-922;15.08188
