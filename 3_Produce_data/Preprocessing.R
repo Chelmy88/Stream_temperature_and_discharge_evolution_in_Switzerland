@@ -1,27 +1,40 @@
-# This script is related to the paper:
-# "Stream temperature evolution in Switzerland over the last 50 years, Adrien
-# Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli, and Hendrik Huwald,
-# HESS, 2019"
-
+###################################################################################
+# This content is related to the paper:
+#
+# Stream temperature and discharge evolution in Switzerland over the last 50 years:
+# annual and seasonal behaviour
+#
+# Adrien Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli,
+# and Hendrik Huwald
+#
+# Hydrol. Earth Syst. Sci., 2020
+#
+#
+# Any use of the material (code or data) presented here should clearly reference
+# to this paper and to the providers of the data mentioned in the documentation.
+#
 # This material is distributed under the GPLv3 license
 # (https://www.gnu.org/licenses/gpl-3.0.html)
+#
+# Author: Adrien Michel, adrien.michel@epfl.ch, 01.2020
+###################################################################################
 
 # This scripts generate the data sets to be used in 4_Run_analysis/Analysis.R
 # The Raw data required to trun this script are not provided, please look at
 # the README file in 1_Obtain_and_pocess_raw_data for infromation about getting
 # these data. The XLS file in data directory must be kept.
 #
-# USer must have installed the package in 2_R_package, the package gdata and
+# User must have installed the package in 2_R_package, the package gdata and
 # the package lubridate (see README in 2_R_package and
 # https://www.r-bloggers.com/installing-r-packages/)
 #
 # These script will owerite existing data sets provided in 4_Run_analysis/rds_data
 # directory
 
+
 # This will automatically set the working directory in RStudio
 # If not using RStudio you should put this value to the directory
 # containing this file
-#
 wd=dirname(rstudioapi::getActiveDocumentContext()$path)
 
 setwd(wd)
