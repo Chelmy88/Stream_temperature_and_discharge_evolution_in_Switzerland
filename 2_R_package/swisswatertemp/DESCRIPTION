@@ -1,10 +1,10 @@
 Package: swisswatertemp
 Type: Package
 Title: Swiss water temperature analysis
-Version: 1.1.0
+Version: 1.1.1
 Author: Adrien Michel
 Maintainer: Adrien Michel <adrien.michel@epfl.ch>
-Description: This package allow to reproduce the analysis and results presented in: 'Stream temperature and discharge evolution in Switzerland over the last 50 years: annual and seasonal behavior, Adrien Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli, and Hendrik Huwald, 2019'.
+Description: This package allow to reproduce the analysis and results presented in: 'Stream temperature and discharge evolution in Switzerland over the last 50 years: annual and seasonal behaviour, Adrien Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli, and Hendrik Huwald, Hydrol. Earth Syst. Sci., 2020'.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
