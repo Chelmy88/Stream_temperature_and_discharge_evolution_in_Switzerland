@@ -1,12 +1,25 @@
 #-*- coding: UTF-8 -*-
 
-# This script is related to the paper:
-# "Stream temperature evolution in Switzerland over the last 50 years, Adrien
-# Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli, and Hendrik Huwald,
-# HESS, 2019"
-
+###################################################################################
+# This content is related to the paper:
+#
+# Stream temperature and discharge evolution in Switzerland over the last 50 years:
+# annual and seasonal behaviour
+#
+# Adrien Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli,
+# and Hendrik Huwald
+#
+# Hydrol. Earth Syst. Sci., 2020
+#
+#
+# Any use of the material (code or data) presented here should clearly reference
+# to this paper and to the providers of the data mentioned in the documentation.
+#
 # This material is distributed under the GPLv3 license
 # (https://www.gnu.org/licenses/gpl-3.0.html)
+#
+# Author: Adrien Michel, adrien.michel@epfl.ch, 01.2020
+###################################################################################
 
 import os
 import glob
@@ -88,8 +101,6 @@ with open("RAW/station_info.csv") as read_file:
             break
         cur_line=line.rstrip().lstrip().split(";")
         print cur_line
-
-'''
 
 
 print "Scanning available files"
@@ -255,4 +266,4 @@ for code, station in t_stations.iteritems():
         for write_lines in data:
              write_file.write(write_lines+"\n")
 
-'''
+
