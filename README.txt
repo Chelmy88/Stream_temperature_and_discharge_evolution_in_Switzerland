@@ -2,9 +2,15 @@ README
 ======
 
 This content is related to the paper:
-"Stream temperature evolution in Switzerland over the last 50 years, Adrien
-Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli, and Hendrik Huwald,
-HESS, 2019"
+
+Stream temperature and discharge evolution in Switzerland over the last 50 years: 
+annual and seasonal behaviour
+
+Adrien Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli, 
+and Hendrik Huwald
+
+Hydrol. Earth Syst. Sci., 2020
+
 
 Any use of the material (code or data) presented here should clearly reference
 to this paper and to the providers of the data mentioned in the documentation.
@@ -12,7 +18,7 @@ to this paper and to the providers of the data mentioned in the documentation.
 This material is distributed under the GPLv3 license
 (https://www.gnu.org/licenses/gpl-3.0.html)
 
-Author: Adrien Michel, adrien.michel@epfl.ch, 08.2019
+Author: Adrien Michel, adrien.michel@epfl.ch, 01.2020
 
 INTRODUCTION
 ------------
@@ -32,17 +38,13 @@ All the material provided comes with various licenses; see individual files for
 details.  The directory “1_Obtain_and_pocess_raw_data” and “3_Produce_data”
 contains the necessary information and scripts on how to get the dataset
 reproduced from raw data. The raw  meteorological and hydrological data are
-not provided and should be obtained from  the provider. These steps are not
-required for running the analysis in “4_Run_analysis”, all necessary data for
-this are already provided.  The directory “2_R_package” contains the R
-package that must be installed to run  scripts provided in “3_Produce_data”
-and “4_Run_analysis”. See the corresponding README file in that directory to
-install the package and to obtain information about the structure of the
-dataset.
+not provided and should be obtained from  the provider. 
+The directory “2_R_package” contains the R package that must be installed to
+run  scripts provided in “3_Produce_data” and “4_Run_analysis”. See the 
+corresponding README file in that directory to install the package and 
+to obtain information about the structure of the dataset.
 
-All source code of the package is also provided.  The main datasets are
-provided in "4_Run_analysis" as an R object, along with some other  input
-data. The script provided in "4_Run_analysis" allows to do the analysis and
+The script provided in "4_Run_analysis" allows to do the analysis and
 produce the plots of the paper.  
 
 DATA PROVIDED AND AUTHORISATION
@@ -79,17 +81,7 @@ results of the paper, interested users should obtain data from the above
 mentioned website. Data are provided here with the authorisation of the
 provider.
 
-  5. 4_Run_analysis/data/rds_data: This directory contains the main dataset
-produced for this study. The details on the structure of the dataset are given
-in the documentation 2_R_package/swisswatertemp_1.0.0.pdf. Users are invited to
-read the section 'swisswatertemp' starting on page 25, which describes in detail
-the datasets provided in rds_data. Usage of this data set is open, it is
-published under GPLv3 license. However for usage of the raw measurements
-provided in the data sets, people are invited to obtain them from the providers
-described in 1_Obtain_and_pocess_raw_data/README.txt. PROVIDER HAVE NOT YET 
-AGREED TO PUBLISH THE DATA ON OPEN SERVER
-
-  6. 4_Run_analysis/data/snow_cover 5. Snow_cover This directory contains mean
+  5. 4_Run_analysis/data/snow_cover 5. Snow_cover This directory contains mean
 snow water equivalent computed from snow maps provided by the WSL Institute for
 Snow and Avalanche Research (SLF) [MAGNUSSON2014].  The purpose of the data
 provided here is the reproduction of the results of the paper, interested users

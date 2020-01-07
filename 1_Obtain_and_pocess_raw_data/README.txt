@@ -1,9 +1,16 @@
 1_Obtain_and_pocess_raw_data
 ============================
 
-This content is related to the paper: "Stream temperature evolution in
-Switzerland over the last 50 years, Adrien Michel, Tristan Brauchli, Michael
-Lehning, Bettina Schaefli, and Hendrik Huwald, HESS, 2019"
+This content is related to the paper:
+
+Stream temperature and discharge evolution in Switzerland over the last 50 years: 
+annual and seasonal behaviour
+
+Adrien Michel, Tristan Brauchli, Michael Lehning, Bettina Schaefli, 
+and Hendrik Huwald
+
+Hydrol. Earth Syst. Sci., 2020
+
 
 Any use of the material (code or data) presented here should clearly reference
 to this paper and to the providers of the data mentioned in the documentation.
@@ -11,44 +18,44 @@ to this paper and to the providers of the data mentioned in the documentation.
 This material is distributed under the GPLv3 license
 (https://www.gnu.org/licenses/gpl-3.0.html)
 
-Author: Adrien Michel, adrien.michel@epfl.ch, 08.2019
+Author: Adrien Michel, adrien.michel@epfl.ch, 01.2020
 
 INTRODUCTION
 ------------
 
 This folder contains the scripts to produce SMET files from raw data from
-various providers.  SMET files are required as input for the analysis.  The SMET
-format is described here:
+various providers.  SMET files are required as input for the analysis.
+The SMET format is described here:
 https://models.slf.ch/docserver/meteoio/SMET_specifications.pdf
 
-The providers and requested data are :
+The providers and requted data are:
 
 Amt für Wasser und Abfall (AWA) Canton Bern, Switzerland
-https://www.bve.be.ch/bve/de/index/direktion/organisation/awa.html Hourly
-discharge and water temperature
+https://www.bve.be.ch/bve/de/index/direktion/organisation/awa.html
+Hourly discharge and water temperature
 
 Amt für Abfall, Wasser, Energie und Luft (AWEL), Canton Zürich, Switzerland
-https://awel.zh.ch/internet/baudirektion/awel/de/home.html Hourly discharge and
-water temperature
+https://awel.zh.ch/internet/baudirektion/awel/de/home.html
+Hourly discharge and water temperature
 
 Federal Office for the Environment (FOEN), Bern, Switzerland
-https://www.hydrodaten.admin.ch/en/ Daily and hourly (when available) discharge
-and water temperature
+https://www.hydrodaten.admin.ch/en/
+Daily and hourly (when available) discharge and water temperature
 
 Federal Office of Meteorology and Climatology (MeteoSwiss), Zurich, Switzerland
-https://gate.meteoswiss.ch/idaweb/ Daily 2m air temperature and cumulative
-precipitation, as homogenous time series when available.  Data should be ordered
-as CSV files
+https://gate.meteoswiss.ch/idaweb/
+Daily 2m air temperature and cumulative precipitation, as homogenous time 
+series when available. Data should be ordered as CSV files
 
 The data in the data_Hydrologische_Messstationen are provided by the Federal
 Office of Environment (FOEN) and are available at:
-https://data.geo.admin.ch/ch.bafu.hydrologie-hydromessstationen/. Data are
-reproduced in agreement with the provider.
+https://data.geo.admin.ch/ch.bafu.hydrologie-hydromessstationen/
+Data are reproduced in agreement with the provider.
 
 A list of the various stations used can be found in
 “3_Produce_data/Preprocessing.R”, in
 “3_Produce_data/data/discharge_gauging_station.xlsx”, or in the tables given in
-the paper and in the supplementary.  The dates of the time series used also can
+the paper and in the supplementary. The dates of the time series used also can
 be found in the tables given in the paper and in the supplementary.
 
 These data are not provided here, users must contact the providers to obtain
@@ -60,7 +67,7 @@ in “3_Produce_data”.  AWA, AWEL and FOEN data should go to
 MeteoSwiss data go to “3_Produce_data/meteo/data/” and MeteoSwiss homogenous
 data to “3_Produce_data/meteo/data_hom”.
 
-FOEN hourly data are used for some analysis but the main dataset is built on
+FOEN hourly data are used for some analysis, but the main dataset is built on
 daily data to reduce the size of the dataset. MeteoSwiss homogenous time series
 are already used when possible in the MeteoSwiss file. A dataset of homogenous
 time series is produced separately and used for some analysis. This dataset is
@@ -74,6 +81,8 @@ homogenous MeteoSwiss data contain only the desired and minimum data.
 
 USAGE
 -----
+
+Note: All the scripts are written in python 2 
 
   1. AWA: To generate SMET files, the 'input' and 'output' variables at the
 beginning of the 'AWA_pre_proc.py' script should be set to point to the
@@ -97,7 +106,6 @@ directory containing the input files of daily data provided by FOEN and to an
 existing directory where output SMET files should be written. The path should be
 relative to the path from where the script is run.
 
-
   4. FOEN hourly: To generate SMET files, the 'input' and 'output' variables at
 the beginning of the 'FOEN_pre_proc_hhourly.py' script should be set to point to
 the directory containing the input files of hourly data provided by FOEN and to
@@ -105,15 +113,14 @@ an existing directory where output SMET files should be written. The path should
 be relative to the path from where the script is run.
 
   5. MeteoSwiss: To generate SMET files, the 'input' and 'output' variables at
-lines 333-334 of the 'MeteoSwiss_pre_proc.py' script should be set to point to
+lines 354-355 of the 'MeteoSwiss_pre_proc.py' script should be set to point to
 the directory containing the directories obtained from MeteoSwiss (directories
 named "order######") and to an existing directory where output SMET files should
 be written. The path should be relative to the path from where the script is
 run.
 
-
   6. MeteoSwiss homogenous: To generate SMET files, the 'input' and 'output'
-variables at lines 333-334 of the 'MeteoSwiss_pre_proc_HOM.py' script should be
+variables at lines 354-355 of the 'MeteoSwiss_pre_proc_HOM.py' script should be
 set to point to the directory containing the directories obtained from
 MeteoSwiss (directories named "order######") and to an existing directory where
 output SMET files should be written. The path should be relative to the path
