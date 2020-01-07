@@ -567,7 +567,7 @@ plot_long_term<-function(rivers_data, meteo_data)
           ylab="Discharge anomaly (%)",xlab="Decade (starting year)")
 
   boxplot(all_mean_P_long$yearly$P ~ all_mean_P_long$yearly$decade,
-          ylab="Precipitations anomaly (%)",xlab="Decade (starting year)")
+          ylab="Precipitation anomaly (%)",xlab="Decade (starting year)")
 
 
 
@@ -717,7 +717,7 @@ plot_long_term<-function(rivers_data, meteo_data)
   boxplot(all_mean_P_long$yearly$P ~ all_mean_P_long$yearly$decade,
         main=paste("Precipitation decadal anomaly, for",
         sum(all_mean_P_long$yearly$decade==1920),"stations"),
-        ylab="Precipitations anomaly (%)",xlab="Decade (starting year)")
+        ylab="Precipitation anomaly (%)",xlab="Decade (starting year)")
 
   means <- aggregate(all_mean_P_long$yearly,
                      by = list(all_mean_P_long$yearly$decade),
