@@ -747,7 +747,7 @@ plot_hysteresis <- function(station,output_type="NONE")
           type="l", col=seasons[["winter2"]]$color,lty=lty)
 
   }
-  mtext(side=1,text="D.O.Y.",line=2.3)
+  mtext(side=1,text="DOY",line=2.3)
 
   plot(0, type="n",xlab="",ylab=expression(paste("Water temperature (",degree,"C)")),ylim=T_lim,xlim=c(0,365))
   for(i in 1:length(station$hysteresis$daily_mean_smoothed)){
@@ -763,7 +763,7 @@ plot_hysteresis <- function(station,output_type="NONE")
     lines(seasons[["winter2"]]$period,station$hysteresis$daily_mean_smoothed[[i]]$T[seasons[["winter2"]]$period],
           type="l", col=seasons[["winter2"]]$color,lty=lty)
   }
-  mtext(side=1,text="D.O.Y.",line=2.3)
+  mtext(side=1,text="DOY",line=2.3)
 
   plot(0, type="l",xlab="",ylab=expression(paste("Water temperature (",degree,"C)")),xlim=Q_lim,ylim=T_lim)
   lty_legend=c()
@@ -1288,15 +1288,7 @@ genreal_analysis_plots <- function(period,rivers_data)
               names=c("< 0.1", "< 5", "< 10",">= 10"), ylim=ylimt)
       mtext(side = 1, text = expression(paste("Glacier coverage (%)")), line = 4.5, cex=1)
     }
-    mtext(side = 2, text = expression(paste("Air emperature trend (",degree,"C per decade)")), line = 2.8)
-
-    if(legend=="regime"){
-      means <- aggregate(data[,1] ,
-                         by = list(data[,2]),
-                         FUN = mean,  na.rm=TRUE)
-
-      points(1:4, means$x, col = "red",pch=16)
-    }
+    mtext(side = 2, text = expression(paste("Air temperature trend (",degree,"C per decade)")), line = 2.8)
 
     for(i in 1:length(table(data[,2])))
     {
@@ -1407,7 +1399,7 @@ genreal_analysis_plots <- function(period,rivers_data)
   par(mar=c(18,4,2,1),mgp=c(2.5,0.6,0),oma=c(0,0,0,0),cex.lab=1.3,cex.axis=1.2)
   data=data.frame((as.numeric(area)),regimes2)
   boxplot(data[,1] ~ data[,2],las=2,main=paste("Area per regimes"),log="y",
-          names=c("AFL", "ALP", "SPJ","HP"),ylab=expression(paste("Area (km"^"2",")")),xlab="Regime")
+          names=c("DLA", "ALP", "SPJ","HYP"),ylab=expression(paste("Area (km"^"2",")")),xlab="Regime")
   for(i in 1:length(table(data[,2])))
   {
     text(i,13,table(data[which(!is.na(data[,1])),2])[[i]])
@@ -1454,7 +1446,7 @@ genreal_analysis_plots <- function(period,rivers_data)
         rep("3",length(summer_t)),rep("4",length(fall_t)))
   boxplot(  c(t,winter_t, spring_t,summer_t,fall_t)~lab,names=c("","","","",""),
             ylab=expression(paste("Water temperature trend (",degree,"C per decade)")),
-            ylim=c(-0.7,1.1),main="Water temperature")
+            ylim=c(-0.7,1.1),main="Water temperature",xlab="")
   points(1:5, c(mean(t,na.rm=TRUE),mean(winter_t,na.rm=TRUE),mean(spring_t,na.rm=TRUE),
                 mean(summer_t,na.rm=TRUE),mean(fall_t,na.rm=TRUE)), col = "red",pch=16)
   mtext(text=c("Annual", "Winter","Spring", "Summer","Fall"),
@@ -1470,7 +1462,7 @@ genreal_analysis_plots <- function(period,rivers_data)
         rep("3",length(summer_ta)),rep("4",length(fall_ta)))
   boxplot(  c(t,winter_ta, spring_ta,summer_ta,fall_ta)~lab,names=c("","","","",""),
             ylab=expression(paste("Air temperature trend (",degree,"C per decade)")),
-            ylim=c(-0.7,1.1),main="Air temperature")
+            ylim=c(-0.7,1.1),main="Air temperature",xlab="")
   points(1:5, c(mean(ta,na.rm=TRUE),mean(winter_ta,na.rm=TRUE),mean(spring_ta,na.rm=TRUE),
                 mean(summer_ta,na.rm=TRUE),mean(fall_ta,na.rm=TRUE)), col = "red",pch=16)
   mtext(text=c("Annual", "Winter","Spring", "Summer","Fall"),
@@ -1489,7 +1481,7 @@ genreal_analysis_plots <- function(period,rivers_data)
   boxplot(  c(q_norm,winter_q_norm, spring_q_norm,summer_q_norm,fall_q_norm)~lab,
            names=c("","","","",""),
            ylab=expression(paste("Discharge trend (% per decade)")),ylim=c(-60,25),
-           main="Discharge")
+           main="Discharge",xlab="")
   points(1:5, c(mean(q_norm,na.rm=TRUE),mean(winter_q_norm,na.rm=TRUE),
                mean(spring_q_norm,na.rm=TRUE),
                mean(summer_q_norm,na.rm=TRUE),mean(fall_q_norm,na.rm=TRUE)),
@@ -1510,7 +1502,7 @@ genreal_analysis_plots <- function(period,rivers_data)
   boxplot(  c(q_norm,winter_p_norm, spring_p_norm,summer_p_norm,fall_p_norm)~lab,
            names=c("","","","",""),
            ylab=expression(paste("Precipitation trend (% per decade)")),
-           ylim=c(-60,25),main="Precipitation")
+           ylim=c(-60,25),main="Precipitation",xlab="")
   points(1:5, c(mean(p_norm,na.rm=TRUE),mean(winter_p_norm,na.rm=TRUE),
                mean(spring_p_norm,na.rm=TRUE),mean(summer_p_norm,na.rm=TRUE),
                mean(fall_p_norm,na.rm=TRUE)), col = "red",pch=16)

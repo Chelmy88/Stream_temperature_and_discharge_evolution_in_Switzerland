@@ -524,9 +524,9 @@ plot_long_term<-function(rivers_data, meteo_data)
 
   par(fg = 1)
   boxplot(all_max_Q$Q ~ all_max_Q$decade,
-          main=paste("D.O.Y of maximum discharge per decade, for",
+          main=paste("DOY of maximum discharge per decade, for",
           sum(all_max_Q$decade==1980),"catchments"),
-          ylab="D.O.Y. of maximum discharge (Day)",xlab="Decade (starting year)")
+          ylab="DOY of maximum discharge (Day)",xlab="Decade (starting year)")
 
   x=all_max_Q$Q[which(all_max_Q$decade==1960)]
   y=all_max_Q$Q[which(all_max_Q$decade==1970)]
@@ -747,7 +747,7 @@ plot_long_term<-function(rivers_data, meteo_data)
        ylim=c(-2,2),xlab="Year",ylab="NAO (-)",main="NAO")
   abline(h=0)
 
-  plot(amon_means[,1],amon_means[,2],col=3,lwd=2,type="l",ylab="AMO",xlab="Year",
+  plot(amon_means[,1],amon_means[,2],col=3,lwd=2,type="l",ylab="AMO (-)",xlab="Year",
        main="AMO",xlim=c(1915,2020))
   abline(h=0)
 
