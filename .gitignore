@@ -4,3 +4,5 @@
 ~*
 *.Rproj.user
 .Rproj.user
+4_Run_analysis/data/rds_data/
+4_Run_analysis/plots/
