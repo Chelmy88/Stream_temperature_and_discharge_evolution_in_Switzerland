@@ -13,6 +13,6 @@ plot_thresholds(rivers_data, rivers_data_1h)
 }
 \description{
 This function return plots for the 15C and 25C thresholds analysis shown
-in Figures 17 and 18 and in Figure S24. PLots are saved under
+in Figures 13 and 14 and in Figure S38. PLots are saved under
 plots/25_degs.pdf and plots/15_degs.pdf
 }

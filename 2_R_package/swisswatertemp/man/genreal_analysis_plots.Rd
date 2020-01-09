@@ -15,6 +15,6 @@ produced}
 }
 \description{
 This function produces the plots  variable distributions as shown in Figures
-5, 6, and 10 and in Figures S11 to S13 in supplementary. It also computes
-wilcox test shown in Table 2 and print the results to the console.
+5, 6, and 10, and in Figures S14, and S16 to S21 in supplementary. It also computes
+wilcox test shown in Table S3 in supplementary and print the results to the console.
 }

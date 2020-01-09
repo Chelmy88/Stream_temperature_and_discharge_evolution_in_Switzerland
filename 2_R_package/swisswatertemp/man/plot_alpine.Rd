@@ -10,6 +10,6 @@ plot_alpine(rivers_data)
 \item{rivers_data}{The dataset of rivers data}
 }
 \description{
-This function produces plot for alpine catchments (Figure 14). The plots are
+This function produces plot for alpine catchments (Figure S35). The plots are
 saved in plots/alpine.pdf
 }

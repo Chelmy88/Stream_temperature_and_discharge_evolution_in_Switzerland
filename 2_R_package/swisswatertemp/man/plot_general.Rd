@@ -10,10 +10,10 @@ plot_general(rivers_data)
 \item{rivers_data}{The dataset of rivers data}
 }
 \description{
-This function produces general T and Q plot (all teh catchments). The plot for
-T also contains a lower pannel showing the decadan anomalies (Figures 2 and 3).
+This function produces general T and Q plot (all the catchments, Figures 2 and 3).
+The plot for T also contains a lower pannel showing the decadan anomalies (Figure 2).
 This function also produces the plot of the evolution of the infra-annual
-variability (Figure 16). Plots are written in the 'plots' directory.
+variability (Figure S34 in supplementary). Plots are written in the 'plots' directory.
 The plots are saved in plots/general_plot.pdf, plots/general_plot_Q.pdf,
 and plots/annual_var.pdf
 }

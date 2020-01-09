@@ -13,6 +13,6 @@ print_all_trends(rivers_data, meteo_data)
 }
 \description{
 Tihs function prints to the console the trends table shown in Tables A1 and
-A2 in appendix and in Tables S1 and S2 in supplementary. The table are
+A2 in appendix and in Tables S3 and S4 in supplementary. The table are
 printed in latex format
 }

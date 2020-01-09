@@ -21,5 +21,5 @@ plot_acf(station, output_type = "NONE")
 This function plots the acf and pacf of the residuals of the STL analysis
 for the four variables T, Q, TA and P for the water station passed in
 parameters and the associated meteoSwiss stations. This produces the plots
-shown in Figures S5 and S6 in supplementary.
+shown in Figures S7 and S8 in supplementary.
 }
