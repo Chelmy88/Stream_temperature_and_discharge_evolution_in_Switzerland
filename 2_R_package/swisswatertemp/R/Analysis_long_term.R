@@ -8,18 +8,19 @@
 
 #' Produce long term anomaly plots
 #'
-#' This function produces the decadal animalies plots (Figure 4 and Figure S9
-#' in suplpementary), seasonnal decadal anomalies pots (Figure 8 and 9 and
-#' Figures S18 and S19 in suplementary) and hysteresys plots (Figure 15). These
-#' Figures are saved in plots/long_term_plots.pdf.
+#' This function produces the decadal animalies plots (Figure 4 and Figure S13
+#' in suplpementary), seasonnal decadal anomalies pots (Figure 8 and 9, and
+#' Figures S28 and S27 in suplementary) and hysteresys plots (Figure 12 and Figures
+#' S36 and S37 in supplementary).
+#' These Figures are saved in plots/long_term_plots.pdf.
 #' This function also print to the console the partially overlapping samples
 #' two-sided t-test (see section 4.1) and the figure showing discharge and
-#' precipitation decadal anomalies along with the NAO and AMO (Figure S10 in
+#' precipitation decadal anomalies along with the NAO and AMO (Figure S15 in
 #' suplpementary).
 #'
 #' Note that plots of meteorological data use meteo stations related to water
 #' station except the long term precipitation decadal anomalies plot (Figure 4
-#' and Figure S10 in suplpementary), which uses all available homegenous
+#' and Figure S15 in suplpementary), which uses all available homegenous
 #' MeteoSwiss data not necessarly linked to catchments (as stated in the paper).
 #'
 #' @param rivers_data The dataset of rivers data

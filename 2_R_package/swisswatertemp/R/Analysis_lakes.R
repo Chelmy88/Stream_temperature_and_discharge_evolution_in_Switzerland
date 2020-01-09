@@ -9,7 +9,7 @@
 #' Produces plots for lakes
 #'
 #' This function produces the plots for the trends before and after lakes, shown
-#' in Figure 7 and in Figures S14 to S17 in supplementary. Figures are saved
+#' in Figure 7 and in Figures S22 to S25 in supplementary. Figures are saved
 #' under plots/lakes_plots.pdf
 #'
 #' @param rivers_data The dataset of rivers data

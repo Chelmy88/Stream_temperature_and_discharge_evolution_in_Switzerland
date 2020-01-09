@@ -9,7 +9,7 @@
 #' Print trends table in Latex format
 #'
 #' Tihs function prints to the console the trends table shown in Tables A1 and
-#' A2 in appendix and in Tables S1 and S2 in supplementary. The table are
+#' A2 in appendix and in Tables S3 and S4 in supplementary. The table are
 #' printed in latex format
 #'
 #' @param rivers_data The dataset of rivers data

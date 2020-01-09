@@ -8,7 +8,7 @@
 
 #' Produces plot for alpine catchemts
 #'
-#' This function produces plot for alpine catchments (Figure 14). The plots are
+#' This function produces plot for alpine catchments (Figure S35). The plots are
 #' saved in plots/alpine.pdf
 #'
 #' @param rivers_data The dataset of rivers data

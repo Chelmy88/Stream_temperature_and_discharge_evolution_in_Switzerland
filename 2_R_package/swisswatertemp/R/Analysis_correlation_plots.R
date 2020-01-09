@@ -9,7 +9,7 @@
 #' Print correlation matrices
 #'
 #' This function prints to the console the correlations matrices shown in
-#' Tables 4 and 5 and in Table S5 in supplementary.
+#' Tables 3 and in Tables S6 and S7 in supplementary.
 #'
 #' Some additional plots nor present in the paper are also produced and
 #' saveud under plots/correlations_plots.pdf

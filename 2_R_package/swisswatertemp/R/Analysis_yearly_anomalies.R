@@ -9,7 +9,7 @@
 #' Plot yearyl seasonnal anomlaies
 #'
 #' This function plots the yearly seasonnal anomalies for T, Q, TA and P shown
-#' in Figures 11 and 13 and in Figures S20 and S22 in supplementary. The figure
+#' in Figures 11 and Figures S28 to S30 in supplementary. The figure
 #' are saved under plots/summer_anomalies.pdf, plots/winter_anomalies.pdf,
 #' plots/spring_anomalies.pdf, and plots/fall_anomalies.pdf
 #'

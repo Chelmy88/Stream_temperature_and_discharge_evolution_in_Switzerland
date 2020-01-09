@@ -8,8 +8,8 @@
 
 #' Produce snow cover and glacier mass balance plots
 #'
-#' This function produces the monthly snow cover plots (Figures 12 and S21 in
-#' suplpementary) and the glaciers mass balance plot (Figure S23 in supplementary).
+#' This function produces the monthly snow cover plots (Figures S31 and S32 in
+#' suplpementary) and the glaciers mass balance plot (Figure S33 in supplementary).
 #' The plots are saved in plots/snow_plots.pdf
 #'
 #' @param rivers_data The dataset of rivers data

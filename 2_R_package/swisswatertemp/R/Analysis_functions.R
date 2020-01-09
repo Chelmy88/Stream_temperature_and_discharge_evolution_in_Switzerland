@@ -603,7 +603,7 @@ plot_stl <- function(station,output_type="NONE")
 #' This function plots the acf and pacf of the residuals of the STL analysis
 #' for the four variables T, Q, TA and P for the water station passed in
 #' parameters and the associated meteoSwiss stations. This produces the plots
-#' shown in Figures S5 and S6 in supplementary.
+#' shown in Figures S7 and S8 in supplementary.
 #'
 #' @param station A SMET object containing the data for one station
 #' @param output_type Either \code{"NONE"} (default), \code{"PDF"} or \code{"PNG"}.
@@ -806,8 +806,8 @@ plot_hysteresis <- function(station,output_type="NONE")
 #' Plot variable distributions and compute t-tests
 #'
 #' This function produces the plots  variable distributions as shown in Figures
-#' 5, 6, and 10 and in Figures S11 to S13 in supplementary. It also computes
-#' wilcox test shown in Table 2 and print the results to the console.
+#' 5, 6, and 10, and in Figures S14, and S16 to S21 in supplementary. It also computes
+#' wilcox test shown in Table S3 in supplementary and print the results to the console.
 
 #' @param period A string, either "1999-2018", "1979-1998", "1979-2018", or
 #' "1970-2018" defining the period over which the plots and analysis should be

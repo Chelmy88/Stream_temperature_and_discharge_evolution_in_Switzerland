@@ -6,14 +6,13 @@
 # This material is distributed under the GPLv3 license
 # (https://www.gnu.org/licenses/gpl-3.0.html)
 
-#' Produce general T and Q plot and variance plot
+#' Produce tend robustness plots for T, Q, TA and P.
 #'
-#' This function produces general T and Q plot (all teh catchments). The plot for
-#' T also contains a lower pannel showing the decadan anomalies (Figures 2 and 3).
-#' This function also produces the plot of the evolution of the infra-annual
-#' variability (Figure 16). Plots are written in the 'plots' directory.
-#' The plots are saved in plots/general_plot.pdf, plots/general_plot_Q.pdf,
-#' and plots/annual_var.pdf
+#' This function produces the trend robustness plots by using the robust liner model
+#' function (rlm) from the MASS package (Figures S9 and S10 in supplementary) and
+#' by using trends when removing one year at the begining or end of the time series
+#' (Figures S11 and S12 in supplementary).
+#' Figures are saved in plots/trend_robustness.pdf
 #'
 #' @param rivers_data The dataset of rivers data
 #'
